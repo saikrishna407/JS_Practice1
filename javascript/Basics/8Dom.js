@@ -1,0 +1,34 @@
+var data=[{
+    sai:{
+        fullname:"saikrishna",
+        age:27,
+        phone:99999999,
+        email:"sai@gmail.com"
+    },
+    kri:{
+        fullname:"saikrishna1",
+        age:28,
+        phone:99999999,
+        email:"sai1@gmail.com"
+    },
+    Ban:{
+        fullname:"saikrishna",
+        age:27,
+        phone:99999999,
+        email:"sai@gmail.com"
+    },
+    sai1:{
+        fullname:"saikrishna",
+        age:27,
+        phone:99999999,
+        email:"sai@gmail.com"
+    },
+    sai2:{
+        fullname:"saikrishna",
+        age:27,
+        phone:99999999,
+        email:"sai@gmail.com"
+    }
+}];
+console.log(document);
+console.log(document.getElementById('one'));

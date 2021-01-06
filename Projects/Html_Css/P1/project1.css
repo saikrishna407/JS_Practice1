@@ -1,0 +1,60 @@
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+    
+}
+/* Utility classes  */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+#navbar a{
+    color: white;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+   list-style: none;
+   float: right;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+
+}
+/* currentPage Styles */
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background-color:gray;
+    color: tomato;
+}

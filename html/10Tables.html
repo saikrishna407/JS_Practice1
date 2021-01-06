@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table {
+            width: 50%;
+            text-align: center;
+            align-items: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+
+        tr:nth-child(2),td:nth-child(2)::before {
+            background-color: rgb(221, 236, 12);
+            color: burlywood;
+        }
+      /*   tr:nth-child(even),td:nth-child(odd) {
+            background-color: rgb(56, 11, 182);
+            color: chartreuse;
+        } */
+        /* tr:nth-last-child(2){
+            background-color: deeppink;
+        } */
+
+        /* (An+B) expresssions */
+        /* (-n+4), (n+4) (2n+1)     */
+        tr:nth-child(3n+3){
+            background-color: deeppink;
+        }
+/* td:nth-child(4){
+    background-color: aqua;
+} */
+        .tr-style {
+            background-color: crimson;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <table class="table">
+            <thead>
+                <tr class="tr-style">
+                    <th>Sr.No</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>sai</td>
+                    <td>27</td>
+                    <td>sai@gmail.com</td>
+                    <td>9499949494</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>sai</td>
+                    <td>27</td>
+                    <td>sai@gmail.com</td>
+                    <td>9499949494</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>sai</td>
+                    <td>27</td>
+                    <td>sai@gmail.com</td>
+                    <td>9499949494</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>sai</td>
+                    <td>27</td>
+                    <td>sai@gmail.com</td>
+                    <td>9499949494</td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>sai</td>
+                    <td>27</td>
+                    <td>sai@gmail.com</td>
+                    <td>9499949494</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>sai</td>
+                    <td>27</td>
+                    <td>sai@gmail.com</td>
+                    <td>9499949494</td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>sai</td>
+                    <td>27</td>
+                    <td>sai@gmail.com</td>
+                    <td>9499949494</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>sai</td>
+                    <td>27</td>
+                    <td>sai@gmail.com</td>
+                    <td>9499949494</td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>sai</td>
+                    <td>27</td>
+                    <td>sai@gmail.com</td>
+                    <td>9499949494</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>sai</td>
+                    <td>27</td>
+                    <td>sai@gmail.com</td>
+                    <td>9499949494</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 5000vh;
+        }
+        .box {
+            height: 100px;
+            width: 100px;
+        }
+
+        #box1 {
+            background-color: red;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            z-index: 1;
+        }
+        .container{
+            position: relative;
+            height: 500px;
+            width: 500px;
+            background-color: gray;
+        }
+        #box2 {
+            background-color: yellow;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+
+        #box3 {
+            background-color: green;
+            position: absolute;
+            bottom: 100px;
+            right: 100px;
+        }
+
+        #box4 {
+            background-color: blue;
+            position: fixed;
+        }
+
+        #box5 {
+            background-color: pink;
+            position: sticky;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        Static       Not Effected by trbl(Top,Right,bottom,left) properties.
+        Relative     trbl values cause elements to be moved from its normal postions
+        Absolute     Postioned relative to its parent elements that is Postioned "Relative".
+        Fixed        Postioned relative to the ViewPort
+        Sticky       Postiones based on scroll Postion
+      -->
+
+    <div id="box1" class="box"> </div>
+    <div class="container">
+
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+
+    </div>
+    <div id="box4" class="box"></div>
+    <div id="box5" class="box"></div>
+
+
+
+
+</body>
+
+</html>
